@@ -1,6 +1,6 @@
 cask "lupen" do
-  version "0.3.0"
-  sha256 "03875ffb4cb91a77840eca55c7e80fbdf989ca48236d613f3be6033181dac3e2"
+  version "0.4.0"
+  sha256 "434217f7eb298ba05c7fb0d5d1ffe0da2b3b71e4924435ee8a2209a782e582d5"
 
   url "https://github.com/momoraul/Lupen/releases/download/v#{version}/Lupen-#{version}.dmg"
   name "Lupen"
@@ -11,6 +11,7 @@ cask "lupen" do
   auto_updates true               # Sparkle handles in-app updates
 
   app "Lupen.app"
+  binary "#{appdir}/Lupen.app/Contents/MacOS/Lupen", target: "lupen"
 
   zap trash: [
     "~/Library/Application Support/Lupen",
