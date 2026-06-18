@@ -7,7 +7,7 @@ cask "lupen" do
   desc "Itemized cost receipts for Claude Code and Codex"
   homepage "https://github.com/momoraul/Lupen"
 
-  depends_on macos: ">= :tahoe"   # macOS 26
+  depends_on macos: :tahoe   # macOS 26 (Tahoe) or later
   auto_updates true               # Sparkle handles in-app updates
 
   app "Lupen.app"
