@@ -1,6 +1,6 @@
 cask "lupen" do
-  version "0.9.0"
-  sha256 "4e898a85fd2411a717794af9d0bc9d05c727aae5c2bff195efd9e38144cd2732"
+  version "0.10.0"
+  sha256 "6702363ed6cb3ae1b1b829c8fde28b7a36faf55efb647b40c4926bcd22db2187"
 
   url "https://github.com/momoraul/Lupen/releases/download/v#{version}/Lupen-#{version}.dmg"
   name "Lupen"
